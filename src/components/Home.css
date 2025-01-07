@@ -1,0 +1,91 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0c0b0b;
+  background-image: url('https://source.unsplash.com/1600x900/?space,stars');
+  background-size: cover;
+}
+
+.home-container {
+  display: flex;
+  width: 80%;
+  max-width: 1400px;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.profile-image {
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-content {
+  flex: 1;
+  padding: 2rem;
+  text-align: left;
+  color: white;
+}
+
+.home-buttons button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.hire-me-btn {
+  background-color: #f0a500;
+  color: black;
+  border: none;
+}
+
+.hire-me-btn:hover {
+  background-color: #e69900;
+}
+
+.my-works-btn {
+  background-color: transparent;
+  border: 2px solid #f0a500;
+  color: #f0a500;
+}
+
+.my-works-btn:hover {
+  background-color: #f0a500;
+  color: black;
+}
+
+.yellow {
+  color: #f0a500;
+}
+
+.home-content h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.home-content p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.home-content h1 {
+  font-size: 5rem;
+}

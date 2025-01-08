@@ -3,8 +3,10 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import "./App.css";
+import Contact from "./components/contact";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
@@ -17,6 +19,10 @@ function App() {
         return <About />;
       case "skills":
         return <Skills />;
+      case "projects":
+        return <Projects />;
+      case "contact":
+        return <Contact />;
       default:
         return <Home />;
     }

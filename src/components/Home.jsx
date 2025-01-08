@@ -10,7 +10,7 @@ function Home() {
           <img src={profileImage} alt="Profile" className="profile-image" />
         </div>
         <div className="home-content">
-          <h1>I'm<span className="yellow"> Piyush Singh</span></h1> 
+          <h1>I'm<span className="yellow"> Michael Kasprowikz</span></h1> 
           <h2>Fullstack Web Developer</h2>
           <div className="home-buttons">
             <button className="hire-me-btn">Hire Me</button>

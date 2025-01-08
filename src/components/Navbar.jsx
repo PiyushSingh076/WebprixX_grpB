@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar({ setCurrentPage }) {
   return (
     <nav className="navbar">
-      <div className="logo">Piyush Singh</div>
+      <div className="logo">Michael Kasprowikz</div>
       <ul className="nav-links">
         <li onClick={() => setCurrentPage("home")}>Home</li>
         <li onClick={() => setCurrentPage("about")}>About</li>

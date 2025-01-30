@@ -1,14 +1,57 @@
-# React + Vite
 
-It serves as a foundation for building React applications with Vite, offering blazing-fast builds and a smooth development experience.
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PortFolio
 
+## Overview
+A portflio website with details such as skills , project , and many more.
 
-Currently, two official plugins are available:
+## Features
+- Modular component structure
+- Responsive design
+- Organized CSS files for styling
+- Navbar for easy navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
+```
+src/
+│── assets/         # Static assets like images
+│── components/     # React components
+│   ├── media/      # Media-related files
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   ├── Home.jsx
+│   ├── Navbar.jsx
+│   ├── Projects.jsx
+│   ├── Skills.jsx
+│── App.jsx         # Main application component
+│── index.css       # Global styles
+│── main.jsx        # Entry point
+│── .gitignore      # Files to be ignored by Git
+│── README.md       # Project documentation
+```
 
-- Setup
-- npm start
-- npm run dev
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/WebprixX_grpB.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd WebprixX_grpB
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## Technologies Used
+- React.js
+- JavaScript
+- CSS (MUI for styling if applicable)
+
+## Contribution
+Feel free to fork this repository and submit pull requests for any improvements.
